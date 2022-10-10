@@ -1,15 +1,21 @@
 ﻿namespace lab2
 {
 
-    class Product
+    abstract class Shop
+    {
+        public abstract void Sendproduct();
+    }
+
+    class Phone : Shop
     {
         string name, date;
         int art;
         float price;
         private bool _status;
+
+        
         bool send;
-        private int[] arr = new int[] { 51, 2354, 6789, 2534, 7865 };
-        public bool Status
+         public bool Status
         { //getter and setter
             get
             {
@@ -25,22 +31,20 @@
             get { return arr[index]; }
             set { arr[index] = value; }
         }
-
-        public Product(string name, int art, float price, string date)
+          public Phone(string name, int art, float price, string date)
         {
             this.name = name;
             this.art = art;
             this.price = price;
             this.date = date;
         }
-        public Product()
+         public Phone()
         {
             this.name = "";
             this.art = 0;
             this.price = 0;
             this.date = "";
         }
-        /* */
         public virtual void Print()
         {
             Console.WriteLine("Название товара : " + name);
@@ -49,9 +53,9 @@
             Console.WriteLine("Дата создания товара : " + date);
             Console.WriteLine("");
         }
-        public void Sendproduct()
+        public override void Sendproduct()
         {
-            if (this.send == false)
+             if (this.send == false)
             {
                 this.send = true;
                 Console.WriteLine("Товар с артикулом : " + art + " Отправлент");
@@ -63,9 +67,9 @@
                 Console.WriteLine("");
             }
         }
-
+        
     }
-    class Ball : Product
+    class Ball : Phone
     {
         string color;
         public Ball(string color, string name, int art, float price, string date) : base(name, art, price, date)
@@ -83,7 +87,7 @@
     {
         static void Main()
         {
-            Product Phone = new Product("domashni", 7475, 4321, "10.10.2022");
+            Phone Phone = new Phone("domashni", 7475, 4321, "10.10.2022");
             Ball Red = new Ball("Red", "Cool ball", 23196, 10, "11.11.2022");
             Phone.Status = true;
            // Phone[1]=0; //индексатор
