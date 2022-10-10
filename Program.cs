@@ -75,8 +75,11 @@
     {
         static void Main()
         {
-
-
+            Product Phone = new Product("domashni",7475,4321,"10.10.2022");
+            Ball Red= new Ball("Red","Cool ball",23196,10,"11.11.2022");
+            Phone.Status=true;
+            Phone.Sendproduct();
+            Red.Print();
         }
     }
 
