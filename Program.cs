@@ -13,7 +13,7 @@
         float price;
         private bool _status;
 
-        
+        private int[] arr = new int[] { 51, 2354, 6789, 2534, 7865 };
         bool send;
          public bool Status
         { //getter and setter
