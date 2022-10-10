@@ -8,6 +8,7 @@
         float price;
         private bool _status;
         bool send;
+        private int[] arr = new int[] { 1, 2, 3, 4, 5 };
         public bool Status
         { //getter and setter
             get
@@ -77,9 +78,9 @@
     {
         static void Main()
         {
-            Product Phone = new Product("domashni",7475,4321,"10.10.2022");
-            Ball Red= new Ball("Red","Cool ball",23196,10,"11.11.2022");
-            Phone.Status=true;
+            Product Phone = new Product("domashni", 7475, 4321, "10.10.2022");
+            Ball Red = new Ball("Red", "Cool ball", 23196, 10, "11.11.2022");
+            Phone.Status = true;
             Phone.Sendproduct();
             Red.Print();
         }
