@@ -1,2 +1,11 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿namespace lab2
+{
+    class NewClass
+    {
+        static void Main()
+        {
+
+
+        }
+    }
+}
