@@ -49,10 +49,12 @@
             {
                 this.send = true;
                 Console.WriteLine("Товар с артикулом : " + art + " Отправлент");
+                Console.WriteLine("");
             }
             else
             {
                 Console.WriteLine("Товар с артикулом : " + art + " Уже в пути");
+                Console.WriteLine("");
             }
         }
 
