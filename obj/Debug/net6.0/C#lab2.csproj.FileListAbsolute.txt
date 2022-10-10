@@ -1,0 +1,15 @@
+D:\Desktop\4.1 kyrs\ПнП\C#lab2\bin\Debug\net6.0\C#lab2.exe
+D:\Desktop\4.1 kyrs\ПнП\C#lab2\bin\Debug\net6.0\C#lab2.deps.json
+D:\Desktop\4.1 kyrs\ПнП\C#lab2\bin\Debug\net6.0\C#lab2.runtimeconfig.json
+D:\Desktop\4.1 kyrs\ПнП\C#lab2\bin\Debug\net6.0\C#lab2.dll
+D:\Desktop\4.1 kyrs\ПнП\C#lab2\bin\Debug\net6.0\C#lab2.pdb
+D:\Desktop\4.1 kyrs\ПнП\C#lab2\obj\Debug\net6.0\C#lab2.csproj.AssemblyReference.cache
+D:\Desktop\4.1 kyrs\ПнП\C#lab2\obj\Debug\net6.0\C#lab2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\4.1 kyrs\ПнП\C#lab2\obj\Debug\net6.0\C#lab2.AssemblyInfoInputs.cache
+D:\Desktop\4.1 kyrs\ПнП\C#lab2\obj\Debug\net6.0\C#lab2.AssemblyInfo.cs
+D:\Desktop\4.1 kyrs\ПнП\C#lab2\obj\Debug\net6.0\C#lab2.csproj.CoreCompileInputs.cache
+D:\Desktop\4.1 kyrs\ПнП\C#lab2\obj\Debug\net6.0\C#lab2.dll
+D:\Desktop\4.1 kyrs\ПнП\C#lab2\obj\Debug\net6.0\refint\C#lab2.dll
+D:\Desktop\4.1 kyrs\ПнП\C#lab2\obj\Debug\net6.0\C#lab2.pdb
+D:\Desktop\4.1 kyrs\ПнП\C#lab2\obj\Debug\net6.0\C#lab2.genruntimeconfig.cache
+D:\Desktop\4.1 kyrs\ПнП\C#lab2\obj\Debug\net6.0\ref\C#lab2.dll
