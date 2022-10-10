@@ -1,6 +1,6 @@
 namespace Shop_lab2
 {
-     abstract class Shop
+    abstract class Shop
     {
         public abstract void Sendproduct();
     }

@@ -1,23 +1,8 @@
 ﻿using Phone_lab2;
+using Ball_lab2;
 namespace lab2
 {
-
-   
-
-   
-    class Ball : Phone
-    {
-        string color;
-        public Ball(string color, string name, int art, float price, string date) : base(name, art, price, date)
-        {
-            this.color = color;
-        }
-        public override void Print()
-        {
-            Console.WriteLine("Цвет товара : " + color);
-            base.Print();
-        }
-    }
+    
 
     class NewClass
     {

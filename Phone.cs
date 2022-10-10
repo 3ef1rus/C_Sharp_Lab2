@@ -1,7 +1,8 @@
 using Shop_lab2;
+
 namespace Phone_lab2
 {
-     class Phone : Shop
+    class Phone : Shop
     {
         string name, date;
         int art;
@@ -10,7 +11,7 @@ namespace Phone_lab2
 
         private int[] arr = new int[] { 51, 2354, 6789, 2534, 7865 };
         bool send;
-         public bool Status
+        public bool Status
         { //getter and setter
             get
             {
@@ -26,14 +27,14 @@ namespace Phone_lab2
             get { return arr[index]; }
             set { arr[index] = value; }
         }
-          public Phone(string name, int art, float price, string date)
+        public Phone(string name, int art, float price, string date)
         {
             this.name = name;
             this.art = art;
             this.price = price;
             this.date = date;
         }
-         public Phone()
+        public Phone()
         {
             this.name = "";
             this.art = 0;
@@ -50,7 +51,7 @@ namespace Phone_lab2
         }
         public override void Sendproduct()
         {
-             if (this.send == false)
+            if (this.send == false)
             {
                 this.send = true;
                 Console.WriteLine("Товар с артикулом : " + art + " Отправлент");
@@ -62,6 +63,6 @@ namespace Phone_lab2
                 Console.WriteLine("");
             }
         }
-        
+
     }
 }
