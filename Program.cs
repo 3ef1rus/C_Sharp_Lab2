@@ -37,10 +37,10 @@
         /* */
         public virtual void Print()
         {
-            Console.WriteLine("Название товара :" + name);
-            Console.WriteLine("Артикул товара :" + art);
-            Console.WriteLine("Цена товара :" + price);
-            Console.WriteLine("Дата создания товара :" + date);
+            Console.WriteLine("Название товара : " + name);
+            Console.WriteLine("Артикул товара : " + art);
+            Console.WriteLine("Цена товара : " + price);
+            Console.WriteLine("Дата создания товара : " + date);
             Console.WriteLine("");
         }
         public void Sendproduct()
@@ -48,11 +48,11 @@
             if (this.send == false)
             {
                 this.send = true;
-                Console.WriteLine("Товар с артикулом :" + art + " Отправлент");
+                Console.WriteLine("Товар с артикулом : " + art + " Отправлент");
             }
             else
             {
-                Console.WriteLine("Товар с артикулом :" + art + " Уже в пути");
+                Console.WriteLine("Товар с артикулом : " + art + " Уже в пути");
             }
         }
 
@@ -66,7 +66,7 @@
         }
         public override void Print()
         {
-            Console.WriteLine("Цвет товара :" + color);
+            Console.WriteLine("Цвет товара : " + color);
             base.Print();
         }
     }
