@@ -20,6 +20,11 @@
                 _status = value;
             }
         }
+        public int this[int index]
+        {
+            get { return arr[index]; }
+            set { arr[index] = value; }
+        }
 
         public Product(string name, int art, float price, string date)
         {
