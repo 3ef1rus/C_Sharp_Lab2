@@ -8,7 +8,7 @@
         float price;
         private bool _status;
         bool send;
-        private int[] arr = new int[] { 1, 2, 3, 4, 5 };
+        private int[] arr = new int[] { 51, 2354, 6789, 2534, 7865 };
         public bool Status
         { //getter and setter
             get
@@ -86,6 +86,7 @@
             Product Phone = new Product("domashni", 7475, 4321, "10.10.2022");
             Ball Red = new Ball("Red", "Cool ball", 23196, 10, "11.11.2022");
             Phone.Status = true;
+           // Phone[1]=0; //индексатор
             Phone.Sendproduct();
             Red.Print();
         }
